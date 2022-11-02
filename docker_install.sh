@@ -19,4 +19,4 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plu
 
 sudo docker run hello-world
 
-sudo usermod -aG docker student
+sudo usermod -aG docker $USER && newgrp docker
